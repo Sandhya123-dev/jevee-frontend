@@ -112,7 +112,16 @@ function Header() {
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><FaRegUser className='text-xl'/><h2>Join Jeevee</h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><LiaPhoneVolumeSolid className='text-xl'/><h2>Contact Us</h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><HiOutlineInformationCircle className='text-xl'/><h2>About Us</h2></li>
-<li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><MdOutlineNoteAlt className='text-xl'/><h2>Terms & Conditions</h2></li>
+<li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><MdOutlineNoteAlt className='text-xl'/><h2>
+<a
+                  href="/terms-and-conditions"
+                  // target="_blank" // Opens the link in a new tab
+                  rel="noopener noreferrer" // Adds security
+                  className="flex items-center gap-4"
+                >
+                  Terms & Conditions
+                </a>
+  </h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><GiNotebook className='text-xl'/><h2>Policies</h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><PiWechatLogoLight className='text-xl'/><h2>Feedback</h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><PiHandCoinsDuotone className='text-xl'/><h2>Sell on Jeevee</h2></li>

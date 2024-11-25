@@ -5,6 +5,7 @@ import {
 import Home from "./Pages/Home";
 import RootComponent from "./Common/RootComponent";
 import Prescription from "./Common/Prescription";
+import Terms from "./Admin/pages/terms";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -19,8 +20,14 @@ export default function App() {
         {
           path: "prescription",
           element: <Prescription />
-        }
+        },
+        {
+        path: "terms-and-conditions",
+        element: <Terms />,
+          },
+
       ]
+
     }
   ]);
 
