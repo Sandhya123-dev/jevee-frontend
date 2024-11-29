@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import RootComponent from "./Common/RootComponent";
 import Prescription from "./Common/Prescription";
 import Terms from "./Admin/pages/terms";
+import Policies from "./Admin/pages/Policies";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,10 @@ export default function App() {
         path: "terms-and-conditions",
         element: <Terms />,
           },
+          {
+            path: "policies",
+            element: <Policies />
+          }
 
       ]
 

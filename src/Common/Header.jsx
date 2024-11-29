@@ -122,7 +122,16 @@ function Header() {
                   Terms & Conditions
                 </a>
   </h2></li>
-<li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><GiNotebook className='text-xl'/><h2>Policies</h2></li>
+<li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><GiNotebook className='text-xl'/><h2>
+<a
+  href="/policies"
+  // target="_blank" // Uncomment if you want it to open in a new tab
+  rel="noopener noreferrer" // Ensures security by preventing tab hijacking
+  className="flex items-center gap-4"
+>
+  Policies
+</a>
+Explanation:</h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><PiWechatLogoLight className='text-xl'/><h2>Feedback</h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b hover:bg-[#F4F5F7]'><PiHandCoinsDuotone className='text-xl'/><h2>Sell on Jeevee</h2></li>
 <li className='flex py-2 px-6 gap-4 items-center border-b'><SlLogin className='text-xl'/><h2>Login</h2></li>

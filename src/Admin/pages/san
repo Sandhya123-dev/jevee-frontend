@@ -1,0 +1,103 @@
+import React from 'react'
+
+function Policies() {
+  return (
+    <div>
+       <div className="terms-container bg-white-60 ">
+            <h1 className='text-5xl text-white p-20 font-sans  bg-blue-400'>Policies </h1>
+            </div>
+        <div>Shipping Policy
+            <h1>1. Delivery charges</h1>
+            <p>Delivery charges will be based on the shipping address of the customer</p>
+            <h1>2. COD Charges Policy
+            </h1>
+            <p>Cash on Delivery (COD) is a payment method by which you can pay for your ordered item(s) in cash when Jeevee delivers your order at your shipping/delivery address.
+            Don't own a credit/debit card? Or don't wish to pay online? Rather than making any advance online payment, Jeevee COD option gives you the flexibility to pay the complete order amount on delivery.
+            COD orders are not charged an additional fee for any order value.
+            Only Nepalese Rupee is accepted in the COD payment method.
+            Payment through credit/debit cards, DD, cheque or any other means is NOT accepted in the COD payment. COD is strictly a cash-only payment method.
+
+            </p>
+            <h1>3. What is the estimated delivery time?
+            </h1>
+            <p>Order confirmation happens for online payments once payment authorization and verification is obtained. For COD, order is confirmed once our customer service representative verifies your order and shipping address. For other Offline payments, order confirmation happens once the payment is cleared.
+            We will inform you once the order is confirmed and when the items are shipped with an update on the approximate delivery time. You will get SMS/notification with an update on the status of your order.
+            For all in stock items the delivery is within maximum of 24 hours of the order being confirmed.
+            We make our best efforts to ship each item in your order within 24 hour of the order. However in some cases, we may take longer, up to 7 working days, to ship the order as we may have to procure it from some other stores or our suppliers. In the unlikely event that we are not able to ship your order completely within 7 days of the order, we shall cancel the remaining unshipped part of the order, and send you an email informing you about the same. In such cases, your payment against the unshipped part of the order shall be refunded; in the manner you have made the payment.
+            </p>
+            <h1>4. Internationally delivery
+                <p>International delivery is not available currently.
+                </p>
+                <h1>If you have any queries
+Hotline number:
+(O)
++977-1-5970680
+(M)
++977 98011-65960
+E-mail:
+support@jeeveehealth.com.np</h1>
+            </h1>
+            <h1>Return Policy</h1>
+            <p>We do our best to ensure that the products you order are delivered according to your specifications. However if should you receive an incomplete order, damaged or incorrect product(s), please notify Jeevee Customer Support immediately or within 3 working days of receiving the products, to ensure prompt resolution. Please note that Jeevee will not accept liability for such delivery issues if you fail to notify us within 3 working days of receipt. However, in the rare event that your order is unsatisfactory, we are happy to accept returns for orders, if:
+<ul>
+you've received an item(s) that does not match your order
+the item(s) were damaged in transit or shortage (delivery of such order to be refused at doorstep)
+the item(s) is due to expire within 3 months
+</ul>
+            </p>
+            <p >Note: If you notice the package is damaged at the time of delivery, please do not accept the order. Kindly check your order carefully at the time of receiving your order. Replacement for the damaged item (s) is subject to availability in stock. In absence of a replacement, a refund will be issued.
+            </p>
+            <p></p>
+
+
+            <h1></h1>
+            <p></p>
+            <p></p>
+            <h1>Return Policy Exceptions:
+            </h1>
+            <p>Please note that we are unable to offer replacements or exchanges for the following product categories: Injections, Health Monitor & Equipment’s and Ortho Support. Also, Jeevee reserves the right to refuse returns (or refunds) for certain products, as marked in the respective product pages as 'Note: This item cannot be returned for a refund or exchange.
+            You have to visit our city office to return any product.
+            </p>
+            <h2>If you have any queries
+            </h2>
+            <p>Hotline number:
+(O)
++977-1-5970680
+(M)
++977 98011-65960
+E-mail:
+support@jeeveehealth.com.np</p>
+          
+
+
+
+<h1>Refund Policy
+</h1>
+<p>At Jeevee, we do our best to ensure that you are completely satisfied with our products. And we are happy to issue a full refund based on the conditions listed below.
+</p>
+<ul><li>Full Refund Possible if you received a defective item.
+</li>
+<li>The ordered item(s) is lost or damaged during transit.
+</li>
+<li>The ordered item(s) is past its expiry date.
+</li></ul>
+<p>Note: Mode of refund may vary depending on circumstances. If the mode of refund is by Credit/Debit Card or Net Banking or cash payment, please allow 7 to 10 working days for the credit to appear in your account. While we regret any inconvenience caused by this time frame, it is the bank's policy that delays the refund timing and we have no control over that.
+</p>
+<h1>How to Request a Refund
+</h1>
+<p>To request a refund, simply email your order details, including the reason why you're requesting a refund. To collect the refund and to return you have to visit our city office. We take customer feedback very seriously and use it to constantly improve our quality of service."</p>
+<p>Hotline number:
+(O)
++977-1-5970680
+(M)
++977 98011-65960
+E-mail:
+support@jeeveehealth.com.np</p>
+
+            
+        </div>
+    </div>
+  )
+}
+
+export default Policies
